@@ -1,0 +1,20 @@
+Package: TwoStepClustering3Way
+Title: Two step clustering of three way data
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Jeffrey",
+           family = "Durieux",
+           role = c("aut", "cre"),
+           email = "durieux.jeffrey@gmail.com",
+           comment = c(ORCID = "000-0001-7888-8386")), 
+    person(given = "Tom F.",
+            family = "Wilderjans",
+            role = "aut"))
+Maintainer: Jeffrey Durieux <durieux.jeffrey@gmail.com>
+Description: This R package enables the clustering of three-way data.In a first step a data reduction is performed using Independent Component Analysis and in a second step a similarity/dissimilarity matrix is computed which can be used for a clustering procedure
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  utils, pbapply, ica 
+RoxygenNote: 6.1.1
