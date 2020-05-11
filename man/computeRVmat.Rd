@@ -9,9 +9,9 @@ computeRVmat(DataList = DataList, dist = TRUE, verbose = TRUE)
 \arguments{
 \item{DataList}{a list with N matrices}
 
-\item{dist}{boolean, if TRUE a distance matrix is return, if FALSE a similarity matrix is return}
+\item{dist}{boolean, if TRUE a distance matrix is returned, if FALSE a similarity matrix is returned}
 
-\item{verbose}{if TRUE a progresbar is printed to the console}
+\item{verbose}{if TRUE a progress bar is printed to the console}
 }
 \value{
 a NxN similarity matrix or a dist object (dependening on the dist argument)
